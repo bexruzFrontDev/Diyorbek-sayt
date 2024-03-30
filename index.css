@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.n-main {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  height: 100px;
+}
+.n-right {
+  display: flex;
+  gap: 30px;
+  a {
+    text-decoration: none;
+    color: #222222;
+  }
+}
+
+.h-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h-left {
+  h1 {
+    font-family: Work Sans;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: #333;
+  }
+  p {
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: #333;
+    padding: 30px 0;
+  }
+}
+.s-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-right {
+  h1 {
+    font-family: Work Sans;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: #333;
+  }
+  p {
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: #333;
+    padding: 30px 0;
+  }
+}
+.title {
+  padding: 88px 0;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  text-align: center;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 92px;
+  .card {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px #b7b7b7;
+    padding: 42px;
+  }
+}
